@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: helloexample
+  namespace: node-app-ns
+spec:
+  containers:
+    - name: helloexample
+      image: abhigaur0015/helloexample:latest
+      ports:
+        - containerPort: 3000
