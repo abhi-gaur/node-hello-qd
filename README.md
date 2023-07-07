@@ -1,9 +1,7 @@
 # Node Hello World
 
-Simple node.js app that servers "hello world"
+docker build . -t helloexample  //to Build The Dockerfile
 
-Great for testing simple deployments to the cloud
+docker run -dit -p 3000:3000 helloexample:latest         //Run this command to deploy or run on the browser
 
-## Run It
-
-`npm start`
+Expose port 3000
