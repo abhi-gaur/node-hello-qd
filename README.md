@@ -16,6 +16,8 @@ cd into deployment
 
 kubectl apply -f node_pod.yml
 
+To see Appliction running , use curL
+
 # the application is finally setup and running on worker node , to check 
 
 docker ps
